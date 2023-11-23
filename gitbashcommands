@@ -1,0 +1,72 @@
+First File in Central Repository
+datta@Shraddha MINGW64 ~/sklearning/GoldyShigu (master)
+$ history
+    1  git clone https://github.com/beginner-academy/gitstashexample
+    2  git clone https://github.com/beginner-academy/Weekend_9-30_AM-11-30_AM.git
+    3  ls
+    4  git clone https://github.com/beginner-academy/Weekend_9-30_AM-11-30_AM.git
+    5  ls
+    6  cd Weekend_9-30_AM-11-30_AM/
+    7  git checkout -b shrukulkarni_branch
+    8  touch sk_file1
+    9  ls
+   10  git add .
+   11  git status
+   12  git commit -m "skcommit"
+   13  git push
+   14   git push --set-upstream origin shrukulkarni_branch
+   15  ls
+   16  git checkout master
+   17  ls
+   18  git pull
+   19  ls
+   20  ls
+   21  exit
+   22  mkdir sklearning
+   23  cd sklearning/
+   24  git clone https://github.com/GoldyShigu/GoldyShigu.git
+   25  ls
+   26  cd GoldyShigu/
+   27  ls
+   28  touch secondfile.txt
+   29  ls
+   30  vi secondfile.txt
+   31  git status
+   32  git add secondfile.txt
+   33  git status
+   34  git commit -m "commiting second file"
+   35  git push
+   36  ls
+   37  ls
+   38  git pull
+   39  ls
+   40  vi thirdfile.txt
+   41  ls
+   42  cd sklearning/
+   43  ls
+   44  cd GoldyShigu/
+   45  ls
+   46  git pull
+   47  git branch
+   48  git checkout -b clibranch
+   49  git branch
+   50  ls -lrta
+   51  touch cli1.txt
+   52  touch cli2.txt
+   53  git status
+   54  git add *
+   55  git status
+   56  git commit-m "clibranch commit to add two new files"
+   57  git commit -m "clibranch commit to add two new files"
+   58  git status
+   59  git push
+   60   git push --set-upstream origin clibranch
+   61  ls -lrta
+   62  git branch
+   63  git checkout master
+   64  git branch -d clibranch
+   65  git branch
+   66  ls
+   67  git pull
+   68  ls
+   69  history
